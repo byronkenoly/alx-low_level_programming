@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/*printing to console*/
+/**
+*printing to console
+*/
 
 int main(void)
 {
