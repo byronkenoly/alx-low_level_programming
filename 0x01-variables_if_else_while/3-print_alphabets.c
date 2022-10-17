@@ -16,6 +16,6 @@ int main(void)
 	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 		putchar(alphabet);
 
-	putchar("\n");
+	putchar('\n');
 	return(0);
 }
