@@ -2,8 +2,10 @@
 
 /**
 * mul - multiplies two integers
+* @a: first operand
+* @b: second operand
 *
-* returns product of two integers
+* Return: product of the two parameters
 */
 
 int mul(int a, int b)
