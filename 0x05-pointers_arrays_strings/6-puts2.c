@@ -2,7 +2,7 @@
 
 /**
 * puts2 - skips one character when printing string to console
-* @*str: pointer to a string
+* @str: pointer to a string
 */
 
 void puts2(char *str)

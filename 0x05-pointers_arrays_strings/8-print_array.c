@@ -2,7 +2,7 @@
 
 /**
 * print_array - prints elements of an array
-* @*a: pointer to an integer
+* @a: pointer to an integer
 * @n: represents no. of elements in the array
 */
 
