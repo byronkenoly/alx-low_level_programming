@@ -18,7 +18,7 @@ void puts_half(char *str)
 	{
 		halfPoint = count / 2;
 
-		for (i = count - 1; i >= halfPoint; i--)
+		for (i = halfPoint; i < count; i++)
 		{
 			_putchar(str[i]);
 		}
@@ -28,7 +28,7 @@ void puts_half(char *str)
 	{
 		n = (count - 1) / 2;
 
-		for (i = count - 1; i >= n; i--)
+		for (i = n; i < count; i++)
 		{
 			_putchar(str[i]);
 		}
