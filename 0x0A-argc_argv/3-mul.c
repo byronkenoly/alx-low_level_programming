@@ -7,7 +7,7 @@
 * @argc: number of command line arguments
 * @argv: arrayy containing program command line arguments
 *
-* Return: 0 if inputs are integers, 1 if doesn't receive 2 args
+* Return: 0 for 3  arguments, otherwise 1
 */
 
 int main(int argc, char *argv[])
@@ -23,5 +23,4 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	return (0);
 }
