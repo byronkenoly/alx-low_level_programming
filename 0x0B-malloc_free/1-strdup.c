@@ -21,12 +21,12 @@ char *_strdup(char *str)
 		c++;
 	
 	t = malloc(sizeof(char) * c + 1);
-	
+
 	if (t == NULL)
 		return (NULL);
 
 	for (i = 0; i < c; i++)
 		t[i] = str[i];
-	
+
 	return (t);
 }
