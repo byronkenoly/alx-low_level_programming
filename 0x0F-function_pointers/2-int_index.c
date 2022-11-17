@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include "function_pointers.h"
 
 /**
 * int_index - searches for an integer
@@ -8,11 +7,12 @@
 * @cmp: pointer to function used to compare values
 *
 * Return: index of first element for which cmp doesn't return 0
+* -1 if no element matches
 */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	unsigned int i;
+	int i;
 
 	if (array == NULL || cmp == NULL || size <= 0)
 		return (-1);
