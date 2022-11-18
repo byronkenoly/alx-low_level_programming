@@ -6,6 +6,7 @@
 * print_numbers - function prints numbers
 * @separator: string to be printed btwn numbers
 * @n: number of integers passed to function
+* @...: other parameters
 */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
