@@ -13,9 +13,9 @@ int main(void)
 	x = 1;
 	y = 2;
 	sum = 0;
-	
+
 	fib = x + y;
-	
+
 	while (fib < 4000000)
 	{
 		fib = x + y;

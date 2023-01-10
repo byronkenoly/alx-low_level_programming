@@ -10,7 +10,7 @@ int main(void)
 {
 	long int x, y, fib;
 	int count;
-	
+
 	x = 1;
 	y = 2;
 	printf("%ld, %ld, ", x, y);
