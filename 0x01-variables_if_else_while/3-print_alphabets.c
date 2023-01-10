@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-*
-*Main - entry point
-*Return: always 0(Success)
-*/
+  * main - entry point
+  * Return: 0
+  */
 
 int main(void)
 {
@@ -17,5 +16,5 @@ int main(void)
 		putchar(alphabet);
 
 	putchar('\n');
-	return(0);
+	return (0);
 }

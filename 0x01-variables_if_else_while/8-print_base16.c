@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
-*
-*Main - entry point
-*Return - always 0(Success)
-*/
+  * main - entry point
+  *
+  * Return: 0
+  */
 
 int main(void)
 {
 	int x, alphabet;
-	
-	for (x = 0; x < 10; x++)
+
+	for (x = 48; x < 58; x++)
 		putchar(x);
 
-	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
+	for (alphabet = 97; alphabet <= 102; alphabet++)
 		putchar(alphabet);
 
 	putchar('\n');

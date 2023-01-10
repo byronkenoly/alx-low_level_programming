@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /**
-*
-*Main - entry point
-*Return - always 0(success)
-*/
+  * main - entry point
+  *
+  * Return: 0
+  */
 
 int main(void)
 {
-	char alphabet = "a";
+	char alphabet = 'a';
 
-	while (alphabet <= "z")
+	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
 		alphabet++;
