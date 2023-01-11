@@ -15,11 +15,11 @@ int main(void)
 	y = 2;
 	printf("%ld, %ld, ", x, y);
 
-	for (count = 0; count < 49; count++)
+	for (count = 0; count < 48; count++)
 	{
 		fib = x + y;
 
-		if (count == 48)
+		if (count == 47)
 		{
 			printf("%ld\n", fib);
 			break;
