@@ -38,3 +38,7 @@ strspn.c
 strspn.o
 strstr.c
 strstr.o
+0-main.c
+0-main.o
+len
+liball.so
