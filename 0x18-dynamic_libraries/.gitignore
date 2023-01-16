@@ -42,3 +42,6 @@ strstr.o
 0-main.o
 len
 liball.so
+100-tests.py
+math.c
+math.o
